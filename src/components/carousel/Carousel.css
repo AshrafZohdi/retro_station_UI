@@ -1,0 +1,16 @@
+.mycarousel {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  width: 100%;
+  height: 23cm;
+}
+
+.carousel__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: top;
+  object-position: top;
+}
+/*# sourceMappingURL=Carousel.css.map */

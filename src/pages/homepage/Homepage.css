@@ -1,0 +1,19 @@
+/* Homepage.css */
+
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.main_content {
+  width: 80%;
+  max-width: 1200px; /* Adjust the maximum width as needed */
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff; /* Set your desired background color */
+  border: 1px solid #ccc; /* Set your desired border style */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Set your desired box shadow */
+}
