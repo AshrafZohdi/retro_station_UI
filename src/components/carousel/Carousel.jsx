@@ -8,7 +8,7 @@ import GH from "./assets/guitar_hero.jpg";
 import "./Carousel.css";
 
 const contentStyle = {
-  height: "700px",
+  height: "600px",
   lineHeight: "160px",
   textAlign: "center",
 };
@@ -16,7 +16,7 @@ const contentStyle = {
 const MyCarousel = () => {
   return (
     <div className="mycarousel">
-      <Carousel autoplay>
+      <Carousel autoplay effect="fade">
         <div>
           <h3 style={contentStyle}>
             <img className="carousel__img" src={EB} />
